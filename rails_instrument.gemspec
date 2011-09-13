@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = RailsInstrument::VERSION
   s.authors     = ["Selva"]
   s.email       = ["k.n.selvakumar@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/selvakn/rails_instrument"
   s.summary     = %q{Middleware to show instrumentation information in http headers}
   s.description = %q{Middleware to show instrumentation information in http headers}
 
