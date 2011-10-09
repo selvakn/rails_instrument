@@ -1,7 +1,7 @@
 # Rails Instrument
 
 This gem is a middleware which add some instrumentation details like db
-runtime, view runtime, numner of sqls fired for each request in the
+runtime, view runtime, number of sqls fired on each request in the
 response headers.
 
 ## Response headers added
@@ -20,12 +20,12 @@ Install the latest stable release:
 In Rails >= 3, add it to your Gemfile:
 
 ``` ruby
-gem 'carrierwave'
+gem 'rails_instrument'
 ```
 
 
 ## TODO
-* Create chrome extension to show this information inline in the page
+* <strike>Create chrome extension to show this information inline in the page</strike>. Implemented as html fragment added by the middleware to html response.
 * Add helper methods for tests. Ex: The number of sqls fired can be
   asserted. - wip
-* Add tests coverage.
+* Add test coverage.
