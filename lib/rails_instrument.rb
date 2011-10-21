@@ -4,7 +4,7 @@ module RailsInstrument
   class <<self
     # Resets the instrument statistics and counts
     def reset!
-      $rails_instrument = {}
+      $rails_instrument = { :sql_count => 0 }
     end
 
     def init #:nodoc:
